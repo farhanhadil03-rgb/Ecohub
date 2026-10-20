@@ -1,0 +1,94 @@
+/* ============================
+   EDIT PROFILE CARD
+============================ */
+.edit-card {
+    max-width: 500px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    border-top: 5px solid #2ecc71;
+    animation: fadeIn 0.3s ease;
+}
+
+.edit-card h2 {
+    text-align: center;
+    color: #2ecc71;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* ============================
+   FORM STYLE
+============================ */
+.edit-form label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    color: #2e7d32;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #c8dcc4;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.edit-form input:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 6px rgba(39, 174, 96, 0.35);
+    outline: none;
+}
+
+/* Error message */
+.err {
+    color: #d9534f;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+/* Save button */
+.btn-save {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #27ae60, #f1c40f);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn-save:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+/* Back link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 600;
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Simple fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}

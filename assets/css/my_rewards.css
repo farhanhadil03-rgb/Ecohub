@@ -1,0 +1,23 @@
+.my-rewards {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.my-reward-card {
+    background: #fff;
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 16px;
+}
+.my-reward-card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.claim-code {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}

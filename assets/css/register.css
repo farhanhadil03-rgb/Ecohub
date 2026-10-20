@@ -1,0 +1,72 @@
+/* ====================================================
+   REGISTER PAGE EXTRA STYLE
+==================================================== */
+
+/* Style khusus form register */
+.register-form .form-group {
+    margin-bottom: 18px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #c7d5cf;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.2s ease;
+    background: #fafdfc;
+}
+
+.register-form input:focus {
+    border-color: #3a8f6d;
+    box-shadow: 0 0 6px rgba(58, 143, 109, 0.3);
+}
+
+/* Tombol Register */
+.submit {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(135deg, #3a8f6d, #56c394);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+.submit:hover {
+    background: linear-gradient(135deg, #347c5f, #4fb187);
+    box-shadow: 0 4px 12px rgba(58, 143, 109, 0.35);
+}
+
+/* Error styling tetap sama tapi dibuat lebih soft */
+.form-group .error {
+    margin-top: 6px;
+    color: #e74c3c;
+    font-size: 13px;
+}
+
+/* Register card sedikit lebih besar dibanding login */
+.card.register-card {
+    max-width: 460px;
+    padding: 35px 38px;
+}
+
+/* Title register berbeda sedikit */
+.card-title.register-title {
+    font-size: 28px;
+    color: #2e5c49;
+    margin-bottom: 25px;
+}
+
+/* Responsive */
+@media(max-width: 480px) {
+    .card.register-card {
+        padding: 28px 25px;
+    }
+}

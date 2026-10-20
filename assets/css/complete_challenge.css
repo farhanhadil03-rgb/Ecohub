@@ -1,0 +1,164 @@
+/* ===============================
+   COMPLETE CHALLENGE PAGE
+================================ */
+.completion-page {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f7f5;
+    padding: 20px;
+}
+
+.completion-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 520px;
+    padding: 30px 32px;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+    animation: fadeUp 0.4s ease;
+    
+}
+
+/* ===============================
+   TITLE & INFO
+================================ */
+.completion-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2f5d50;
+    margin-bottom: 10px;
+}
+
+.completion-points {
+    text-align: center;
+    font-size: 16px;
+    color: #3a8f6d;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* ===============================
+   FORM
+================================ */
+.completion-form .form-group {
+    margin-bottom: 18px;
+}
+
+.completion-form label {
+    display: block;
+    font-weight: 600;
+    color: #2f4741;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.completion-form textarea {
+    width: 100%;
+    min-height: 110px;
+    resize: vertical;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid #cfded8;
+    font-size: 14px;
+    transition: 0.25s ease;
+}
+
+.completion-form textarea:focus {
+    outline: none;
+    border-color: #3a8f6d;
+    box-shadow: 0 0 0 3px rgba(58,143,109,0.15);
+}
+
+.completion-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed #cfded8;
+    border-radius: 12px;
+    background: #f9fcfb;
+    font-size: 14px;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.btn-complete {
+    width: 100%;
+    padding: 14px 0;
+    background: linear-gradient(135deg, #3a8f6d, #2f7a5e);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 10px;
+}
+
+.btn-complete:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(58,143,109,0.4);
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #3a8f6d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   SUCCESS MESSAGE
+================================ */
+.success-box {
+    text-align: center;
+    padding: 30px;
+}
+
+.success-box h2 {
+    color: #2f7a5e;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.success-box p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* ===============================
+   ANIMATION
+================================ */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 480px) {
+    .completion-card {
+        padding: 24px 20px;
+    }
+
+    .completion-title {
+        font-size: 22px;
+    }
+}

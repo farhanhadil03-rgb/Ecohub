@@ -1,0 +1,93 @@
+.rewards-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* USER INFO */
+.user-info {
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.reward-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+/* CARD */
+.reward-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform .2s;
+}
+
+.reward-card:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE */
+.reward-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.reward-no-img {
+    height: 180px;
+    background: #ddd;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+/* TEXT */
+.reward-desc {
+    font-size: 14px;
+    color: #555;
+    min-height: 45px;
+}
+
+.reward-points {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* BUTTON */
+.btn-claim {
+    display: inline-block;
+    background: #2e7d32;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-claim:hover {
+    background: #1b5e20;
+}
+
+.not-enough {
+    margin-top: 10px;
+    color: #c62828;
+    font-weight: bold;
+}
+
+/* EMPTY */
+.empty-text {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #777;
+}

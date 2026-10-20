@@ -1,0 +1,66 @@
+.level-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.level-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.current-level {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.level-name {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.level-points {
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+
+.progress-bar {
+    height: 14px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #66bb6a, #2e7d32);
+}
+
+.next-level,
+.max-level {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.level-list {
+    margin-top: 30px;
+}
+
+.level-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background: #f4f4f4;
+}
+
+.level-item.active {
+    background: #c8e6c9;
+    font-weight: bold;
+}

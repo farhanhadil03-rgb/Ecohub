@@ -1,0 +1,64 @@
+/* =========== TRANSACTION PAGE =========== */
+.transaction-page, .notif-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.transaction-card, .notif-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.transaction-item {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.transaction-card textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn-submit-offer, .btn-accept, .btn-reject {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-submit-offer {
+    background: #2b8f62;
+}
+
+.btn-accept {
+    background: #28a745;
+    margin-right: 10px;
+}
+
+.btn-reject {
+    background: #dc3545;
+}
+.notif-success {
+    background: #d4edda;
+    padding: 10px 15px;
+    border-left: 4px solid #28a745;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.notif-error {
+    background: #f8d7da;
+    padding: 10px 15px;
+    border-left: 4px solid #dc3545;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
